@@ -21,14 +21,7 @@ module.exports = {
   // Create a thought
   createThought(req, res) {
     Thought.create(req.body)
-      .then((thought) => {
-        return User.findByIdAndUpdate(
-          { _id: req.body.userId },
-          { $push: { thoughts: thought._id } },
-          { new: true }
-        );
-      })
-      .then(thought => res.json("Thought created!"))
+      .then((thought) => res.json(thought))
       .catch((err) => {
         console.log(err);
         return res.status(500).json(err);
