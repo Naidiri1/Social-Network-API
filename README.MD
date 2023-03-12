@@ -45,4 +45,11 @@ Once the user added the package.json, he is going to use the command line to wri
 
 ![users ](./images/users.jpg)
 
-[Video of Social-Network-API]()
+[Video of Social-Network-API](https://app.castify.com/view/9e0497bd-067d-4c7b-b6fb-e808033209f3)
+
+## Credits 
+
+N/A
+
+## License 
+N/A 

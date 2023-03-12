@@ -41,7 +41,7 @@ module.exports = {
               { runValidators: true, new: true }
             )
       )
-      .then(() => res.json({ message: "Course and students deleted!" }))
+      .then(() => res.json({ message: "Thought deleted!" }))
       .catch((err) => res.status(500).json(err));
   },
   // Update a thought
